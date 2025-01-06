@@ -32,17 +32,17 @@
         <mxCell id="W44_KCg1e1bb9gAceICw-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="W44_KCg1e1bb9gAceICw-20" target="W44_KCg1e1bb9gAceICw-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="W44_KCg1e1bb9gAceICw-20" value="tabla all mesagge: user, time, text, err." style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="W44_KCg1e1bb9gAceICw-20" value="tabla all mesagge: mensaje id, user, time, text, err." style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="220" y="400" width="210" height="80" as="geometry" />
         </mxCell>
         <mxCell id="W44_KCg1e1bb9gAceICw-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="W44_KCg1e1bb9gAceICw-21" target="W44_KCg1e1bb9gAceICw-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="W44_KCg1e1bb9gAceICw-21" value="tabla filtrado: maquina, tipo de evento, usurio, " style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="W44_KCg1e1bb9gAceICw-21" value="tabla filtrado: maquina, tipo de evento, mensaje id. " style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="460" y="400" width="210" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="W44_KCg1e1bb9gAceICw-24" value="chat: - recibe mensaje&lt;br&gt;- responde recibido" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
-          <mxGeometry x="370" y="50" width="140" height="50" as="geometry" />
+        <mxCell id="W44_KCg1e1bb9gAceICw-24" value="chat: - envía mensaje a mirtan&lt;br&gt;- recibe la respuesta de si o no" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="370" y="50" width="190" height="50" as="geometry" />
         </mxCell>
         <mxCell id="b3mrIAAyrZ9oiqnwJc7H-1" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.084;entryY=0.04;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="W44_KCg1e1bb9gAceICw-13" target="W44_KCg1e1bb9gAceICw-6">
           <mxGeometry relative="1" as="geometry">
@@ -52,6 +52,32 @@
         </mxCell>
         <mxCell id="b3mrIAAyrZ9oiqnwJc7H-2" value="guardamos la info" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="b3mrIAAyrZ9oiqnwJc7H-1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b3mrIAAyrZ9oiqnwJc7H-4" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="W44_KCg1e1bb9gAceICw-17" target="W44_KCg1e1bb9gAceICw-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="439.5" y="140" as="sourcePoint" />
+            <mxPoint x="439.5" y="110" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="439.5" y="120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b3mrIAAyrZ9oiqnwJc7H-5" value="enviamos mensaje con usuario, tiempo y texto." style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="b3mrIAAyrZ9oiqnwJc7H-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b3mrIAAyrZ9oiqnwJc7H-6" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.906;entryY=0.06;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.6;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="W44_KCg1e1bb9gAceICw-24" target="W44_KCg1e1bb9gAceICw-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="625" y="90" as="sourcePoint" />
+            <mxPoint x="675" y="40" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="630" y="80" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b3mrIAAyrZ9oiqnwJc7H-7" value="guardamos mensajes y &lt;br&gt;creamos base de datos" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="b3mrIAAyrZ9oiqnwJc7H-6">
+          <mxGeometry x="0.2924" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
