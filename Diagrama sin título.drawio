@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:133.0) Gecko/20100101 Firefox/133.0" version="26.0.3">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:133.0) Gecko/20100101 Firefox/133.0" version="26.0.4">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
-    <mxGraphModel dx="1730" dy="451" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1730" dy="419" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="W44_KCg1e1bb9gAceICw-6" value="Mongo DB: &lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="W44_KCg1e1bb9gAceICw-6" value="Base de datos&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="175" y="250" width="500" height="50" as="geometry" />
         </mxCell>
         <mxCell id="W44_KCg1e1bb9gAceICw-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="W44_KCg1e1bb9gAceICw-9" target="W44_KCg1e1bb9gAceICw-13" edge="1">
@@ -33,27 +33,27 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="W44_KCg1e1bb9gAceICw-20" value="tabla all mesagge: mensaje id, user, time, text, err." style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="220" y="400" width="210" height="80" as="geometry" />
+          <mxGeometry x="40" y="400" width="210" height="80" as="geometry" />
         </mxCell>
         <mxCell id="W44_KCg1e1bb9gAceICw-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="W44_KCg1e1bb9gAceICw-21" target="W44_KCg1e1bb9gAceICw-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="W44_KCg1e1bb9gAceICw-21" value="tabla filtrado: maquina, tipo de evento, mensaje id. " style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="460" y="400" width="210" height="80" as="geometry" />
+        <mxCell id="W44_KCg1e1bb9gAceICw-21" value="tabla filtrada" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="270" y="400" width="210" height="80" as="geometry" />
         </mxCell>
         <mxCell id="W44_KCg1e1bb9gAceICw-24" value="chat: - envía mensaje a mirtan&lt;br&gt;- recibe la respuesta de si o no" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
           <mxGeometry x="370" y="50" width="190" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="b3mrIAAyrZ9oiqnwJc7H-1" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.084;entryY=0.04;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="W44_KCg1e1bb9gAceICw-13" target="W44_KCg1e1bb9gAceICw-6">
+        <mxCell id="b3mrIAAyrZ9oiqnwJc7H-1" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.084;entryY=0.04;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="W44_KCg1e1bb9gAceICw-13" target="W44_KCg1e1bb9gAceICw-6" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="229.5" y="120" as="sourcePoint" />
             <mxPoint x="229.5" y="190" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="b3mrIAAyrZ9oiqnwJc7H-2" value="guardamos la info" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="b3mrIAAyrZ9oiqnwJc7H-1">
+        <mxCell id="b3mrIAAyrZ9oiqnwJc7H-2" value="guardamos la info" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="b3mrIAAyrZ9oiqnwJc7H-1" connectable="0" vertex="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="b3mrIAAyrZ9oiqnwJc7H-4" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="W44_KCg1e1bb9gAceICw-17" target="W44_KCg1e1bb9gAceICw-24">
+        <mxCell id="b3mrIAAyrZ9oiqnwJc7H-4" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="W44_KCg1e1bb9gAceICw-17" target="W44_KCg1e1bb9gAceICw-24" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="439.5" y="140" as="sourcePoint" />
             <mxPoint x="439.5" y="110" as="targetPoint" />
@@ -62,10 +62,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="b3mrIAAyrZ9oiqnwJc7H-5" value="enviamos mensaje con usuario, tiempo y texto." style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="b3mrIAAyrZ9oiqnwJc7H-4">
+        <mxCell id="b3mrIAAyrZ9oiqnwJc7H-5" value="enviamos mensaje con usuario, tiempo y texto." style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="b3mrIAAyrZ9oiqnwJc7H-4" connectable="0" vertex="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="b3mrIAAyrZ9oiqnwJc7H-6" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.906;entryY=0.06;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.6;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="W44_KCg1e1bb9gAceICw-24" target="W44_KCg1e1bb9gAceICw-6">
+        <mxCell id="b3mrIAAyrZ9oiqnwJc7H-6" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.906;entryY=0.06;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.6;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="W44_KCg1e1bb9gAceICw-24" target="W44_KCg1e1bb9gAceICw-6" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="625" y="90" as="sourcePoint" />
             <mxPoint x="675" y="40" as="targetPoint" />
@@ -74,10 +74,16 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="b3mrIAAyrZ9oiqnwJc7H-7" value="guardamos mensajes y &lt;br&gt;creamos base de datos" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="b3mrIAAyrZ9oiqnwJc7H-6">
+        <mxCell id="b3mrIAAyrZ9oiqnwJc7H-7" value="guardamos mensajes y &lt;br&gt;creamos base de datos" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="b3mrIAAyrZ9oiqnwJc7H-6" vertex="1" connectable="0">
           <mxGeometry x="0.2924" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Gv9RYUdDg-cSV277QKs3-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Gv9RYUdDg-cSV277QKs3-1" target="W44_KCg1e1bb9gAceICw-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Gv9RYUdDg-cSV277QKs3-1" value="tabla base de datos" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="400" width="210" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
